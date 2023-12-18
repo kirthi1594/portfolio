@@ -11,6 +11,7 @@ export const About = () => {
         _hover="blueviolet"
         id="about"
         textDecoration="underline"
+        textAlign="center"
       >
         About Me
       </Heading>

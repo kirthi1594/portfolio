@@ -2,6 +2,7 @@
 import './App.css';
 import { About } from './component/About';
 import { Contact } from './component/Contact';
+import GithubCalender from './component/GithubCalendar';
 import { Home } from './component/Home';
 import  Navbar  from './component/Navbar';
 import { Projects } from './component/Projects';
@@ -15,6 +16,7 @@ function App() {
     <About/>
     <Skills/>
     <Projects/>
+    {/* <GithubCalender/> */}
     <Contact/>
   
 

@@ -29,6 +29,7 @@ export const Projects = () => {
         letterSpacing="1px"
         marginBottom="40px"
         id="projects"
+        textAlign="center"
       >
         Projects
       </Heading>
@@ -41,7 +42,7 @@ export const Projects = () => {
         gap="2em"
         background="gray"
       >
-        <Card maxW="md">
+        <Card maxW="md" style={{position:""}}> 
           <CardBody>
             <Image src={dora} alt="dora" borderRadius="lg" />
             <Stack mt="6" spacing="3">

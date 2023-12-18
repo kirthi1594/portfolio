@@ -32,6 +32,7 @@ const Navbar = () => {
       bg="rgb(90,90,90)"
       color="white"
       position="sticky"
+      zIndex="4"
       top="0"
       h="80px"
       alignItems="center"

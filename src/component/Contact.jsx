@@ -16,6 +16,7 @@ export const Contact = () => {
         letterSpacing="1px"
         marginBottom="40px"
         _hover="blueviolet"
+        textAlign="center"
       >
         Contact
       </Heading>

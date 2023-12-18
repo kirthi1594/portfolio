@@ -10,8 +10,18 @@ import {
 import React from "react";
 // import { Button } from 'react-scroll'
 import { ExternalLinkIcon } from "@chakra-ui/icons";
+import Kirthika_Resume from '../assets/Kirthika_Resume.pdf'
 
 export const Home = () => {
+ const handleResumeClick=()=>{
+    window.open(Kirthika_Resume, "_blank");
+    const link = document.createElement("a");
+    link.href = Kirthika_Resume;
+    link.download = "Kirthika_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+ }
   return (
     <>
       <Flex
@@ -47,10 +57,12 @@ export const Home = () => {
               padding: ".5em",
               borderRadius: ".5em",
               color: "white",
+              zIndex:"3",
             }}
+            onClick={handleResumeClick}
           >
             <Link
-              href="https://drive.google.com/file/d/1DfDfV0ErAmDbSsbkDSiUcUixGRZXmH4h/view?usp=sharing"
+              href={Kirthika_Resume}
               isExternal
             >
               Resume
