@@ -74,8 +74,12 @@ export const Home = () => {
           borderRadius="50%"
           src="https://ca.slack-edge.com/T056QHT26Q0-U05BN0VEA84-7a81981040de-512"
           alt="pic"
-          w={{ base: "100%", md: "40%" }}
-          mt={{ base: "2rem", md: "0" }}
+          w={{ base: "90%", md: "40%" }}
+          
+          style={{
+            margin:"auto",
+            marginTop:"2rem",
+          }}
         />
       </Flex>
     </>

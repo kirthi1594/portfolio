@@ -20,6 +20,7 @@ import { Tools } from "./Tools";
 export const Skills = () => {
   return (
     <>
+    <div style={{marginTop:"90px"}}>
       <Heading
         letterSpacing="1px"
         textDecoration="underline"
@@ -65,6 +66,7 @@ export const Skills = () => {
       </Center>
       <Tools/>
       <GithubCalendar/>
+      </div>
     </>
   );
 };

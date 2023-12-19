@@ -32,7 +32,7 @@
          <GitHubCalendar style={{width:'100%',maxWidth:'800px', margin:'0 auto'}}
            className="react-activity-calendar" 
            color="yellow"
-           username="kirthi594"
+           username="kirthi1594"
          />
        </div>
  <div>
