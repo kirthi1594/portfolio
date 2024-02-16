@@ -13,6 +13,9 @@ import {
   import replit from "../assets/replit.jpg";
   import router from "../assets/router.jpg";
   import vercel from "../assets/vercel.svg";
+  import cyclic from "../assets/cyclic.jpg"
+  import thunderclient from "../assets/thunderclient.png"
+  import postman from "../assets/postman.png"
   import git from "../assets/git.png"
 
   
@@ -60,6 +63,9 @@ import {
             />
             <Image  m='auto' p="5px" w="100px" src={netlify} alt="netlify" />
             <Image  m='auto' p="5px" w="100px" src={vercel} alt="vercel" />
+            <Image  m='auto' p="5px" w="100px" src={thunderclient} alt="npm" />
+            <Image  m='auto' p="5px" w="100px" src={cyclic} alt="npm" />
+            <Image  m='auto' p="5px" w="100px" src={postman} alt="npm" />
           </Grid>
         </Center>
       </>

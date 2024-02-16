@@ -10,13 +10,13 @@ import {
 import React from "react";
 // import { Button } from 'react-scroll'
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import Kirthika_Resume from '../assets/Kirthika_Resume.pdf'
+import Kirthika_Resume1 from '../assets/Kirthika_Resume1.pdf'
 
 export const Home = () => {
  const handleResumeClick=()=>{
-    window.open(Kirthika_Resume, "_blank");
+    window.open(Kirthika_Resume1, "_blank");
     const link = document.createElement("a");
-    link.href = Kirthika_Resume;
+    link.href = Kirthika_Resume1;
     link.download = "Kirthika_Resume.pdf";
     document.body.appendChild(link);
     link.click();
@@ -45,7 +45,7 @@ export const Home = () => {
             </Heading>
           </Heading>
           <Heading fontSize={{ base: "2rem", md: "3rem" }} textAlign="left">
-            Frontend Developer
+            Full-Stack Developer
           </Heading>
           <Text fontSize={{ base: "1.5rem", md: "2rem" }} textAlign="left">
             I am a skilled web developer in creating user friendly website.
@@ -62,7 +62,7 @@ export const Home = () => {
             onClick={handleResumeClick}
           >
             <Link
-              href={Kirthika_Resume}
+              href={Kirthika_Resume1}
               isExternal
             >
               Resume

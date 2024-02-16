@@ -5,7 +5,7 @@ import logo2 from "../assets/logo2.jpg";
 import { Box, Flex, Button, IconButton, useColorMode, Image } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import Kirthika_Resume from '../assets/Kirthika_Resume.pdf'
+import Kirthika_Resume1 from '../assets/Kirthika_Resume1.pdf'
 import './Navbar.css';
 
 
@@ -14,10 +14,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleResumeClick=()=>{
-    window.open(Kirthika_Resume, "_blank");
+    window.open(Kirthika_Resume1, "_blank");
     const link = document.createElement("a");
-    link.href = Kirthika_Resume;
-    link.download = "Kirthika_Resume.pdf";
+    link.href = Kirthika_Resume1;
+    link.download = "Kirthika_Resume1.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -104,7 +104,7 @@ const Navbar = () => {
           onClick={handleResumeClick}
         >
           <Link
-            href={Kirthika_Resume}
+            href={Kirthika_Resume1}
             isExternal
           >
             Resume
@@ -117,7 +117,7 @@ const Navbar = () => {
           onClick={handleResumeClick}
         >
           <Link
-            href={Kirthika_Resume}
+            href={Kirthika_Resume1}
             isExternal
           >
             Resume

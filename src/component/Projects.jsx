@@ -19,6 +19,7 @@ import {
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import dora from "../assets/dora.png";
 import kfc from "../assets/kfc.png";
+import asos from "../assets/asos.png"
 
 export const Projects = () => {
   return (
@@ -83,10 +84,50 @@ export const Projects = () => {
 
         <Card maxW="md">
           <CardBody>
+            <Image src={asos} alt="asos" borderRadius="lg" />
+            <Stack mt="6" spacing="3">
+              <Heading size="md">ASOS</Heading>
+              <Text>
+                Asos is a ECommerce website .Here user can do registration,login,
+                adding products in cart and payment gateway interaction.
+              </Text>
+              <Text color="blueviolet" fontSize="2xl">
+                Tech-Stack:
+                <Text>React|MongoDB|Express|Node.js</Text>
+              </Text>
+            </Stack>
+          </CardBody>
+          <Divider />
+          <CardFooter>
+            <ButtonGroup spacing="2">
+              <Button variant="solid" colorScheme="gray">
+                <Link
+                  href="https://github.com/kirthi1594/Project_asos"
+                  isExternal
+                >
+                  Git Repo <ExternalLinkIcon mx="2px" />
+                </Link>
+                {/* Git Repo <Link href='https://github.com/kirthi1594/kfc/tree/main/kfc'/> */}
+              </Button>
+              <Button variant="solid" colorScheme="gray">
+                <Link
+                  href="https://project-asos.vercel.app/"
+                  isExternal
+                >
+                  Git Live <ExternalLinkIcon mx="2px" />
+                </Link>
+                {/* Go Live <Link href='https://kfcc-a7j15uloo-kirthika-js-projects.vercel.app/'/> */}
+              </Button>
+            </ButtonGroup>
+          </CardFooter>
+        </Card>
+
+        {/* <Card maxW="md">
+          <CardBody>
             <Image src={kfc} alt="kfc" borderRadius="lg" />
             <Stack mt="6" spacing="3">
-              <Heading size="md">KFC</Heading>
-              <Text>
+              <Heading size="md">KFC</Heading> */}
+              {/* <Text>
                 KFC is a fast-food restaurant chain that specializes in fried
                 chicken. Helps to find nearby locations, and place online orders
               </Text>
@@ -102,24 +143,24 @@ export const Projects = () => {
               <Button variant="solid" colorScheme="gray">
                 <Link
                   href="https://github.com/kirthi1594/kfc/tree/main/kfc"
-                  isExternal
-                >
-                  Git Repo <ExternalLinkIcon mx="2px" />
-                </Link>
-                {/* Git Repo <Link href='https://github.com/kirthi1594/kfc/tree/main/kfc'/> */}
-              </Button>
-              <Button variant="solid" colorScheme="gray">
-                <Link
-                  href="https://kfcc-a7j15uloo-kirthika-js-projects.vercel.app/"
-                  isExternal
-                >
-                  Git Repo <ExternalLinkIcon mx="2px" />
-                </Link>
-                {/* Go Live <Link href='https://kfcc-a7j15uloo-kirthika-js-projects.vercel.app/'/> */}
-              </Button>
+              //     isExternal */}
+                  {/* >
+                  Git Repo <ExternalLinkIcon mx="2px" /> */}
+                 {/* </Link> */}
+              //   {/* Git Repo <Link href='https://github.com/kirthi1594/kfc/tree/main/kfc'/> */}
+               {/* </Button> */}
+               {/* <Button variant="solid" colorScheme="gray"> */}
+                 {/* <Link */}
+                   {/* href="https://kfcc-a7j15uloo-kirthika-js-projects.vercel.app/"
+                  isExternal */}
+                 {/* > */}
+                   {/* Git Repo <ExternalLinkIcon mx="2px" /> */}
+                {/* </Link> */}
+              //   {/* Go Live <Link href='https://kfcc-a7j15uloo-kirthika-js-projects.vercel.app/'/> */}
+              {/* </Button>
             </ButtonGroup>
           </CardFooter>
-        </Card>
+        </Card> */}
       </Flex>
     </>
   );

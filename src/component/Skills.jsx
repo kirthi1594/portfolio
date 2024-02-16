@@ -14,6 +14,9 @@ import js from "../assets/js.png";
 import react from "../assets/react.png";
 import chakra from "../assets/chakra.png";
 import github from "../assets/github.png";
+import express from "../assets/express.png"
+import mongodb from "../assets/mongodb.png"
+import node from "../assets/node.png"
 import GithubCalendar from "./GithubCalendar";
 import { Tools } from "./Tools";
 
@@ -62,6 +65,9 @@ export const Skills = () => {
           />
           <Image  m='auto' p="5px" w="100px" src={chakra} alt="chakra" />
           <Image  m='auto' p="5px" w="100px" src={github} alt="github" />
+          <Image  m='auto' p="5px" w="100px" src={express} alt="css" />
+          <Image  m='auto' p="5px" w="100px" src={node} alt="css" />
+          <Image  m='auto' p="5px" w="100px" src={mongodb} alt="css" />
         </Grid>
       </Center>
       <Tools/>
